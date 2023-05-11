@@ -6,5 +6,6 @@ public class FloatTypeCasting {
         if ((numberToBeRounded*10) % 10 < 5) {
             result = (int) numberToBeRounded;
         } else result = (int) numberToBeRounded + 1;
+        System.out.println(result);
     }
 }
